@@ -19,6 +19,7 @@ Here you will learn how to reproduce a page [https://www.whatsapp.com/download/]
 ## Requirements
 
 - style the page for desktop viewing, but if you have time make it responsive (use the inspector to test the look on mobile devices)
+- use any css rules you want
 ![Inspector](images/inspector.png) 
 - if you need to upload images to your repo, place them all inside the images folder
 - use English everywhere (page, variables naming, comments, commit messages)
