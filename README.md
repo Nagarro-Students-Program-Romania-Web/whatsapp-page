@@ -11,7 +11,8 @@ Here you will learn how to reproduce a page [https://www.whatsapp.com/download/]
 - create a separate branch `git switch -c "dev"`
 - add html and css files and code
 - in VS Code, click on html file and Go Live (plugin installed previously) to avoid refreshing the page on changes
-- when you're done coding, add the changes to staging using + button in VS Code Source Control tab or type on terminal `git add .` ![VS Code staging](images/stage.png) 
+- when you're done coding, add the changes to staging using + button in VS Code Source Control tab or type on terminal `git add .`
+![VS Code staging](images/stage.png) 
 - commit and push the code `git commit -am "commit message here"`, `git push -u origin dev`
 - go to github and raise a pull request from your development branch to master
 
