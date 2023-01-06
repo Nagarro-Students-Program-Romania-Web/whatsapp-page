@@ -15,6 +15,7 @@ Here you will learn how to reproduce a page [https://www.whatsapp.com/download/]
 ![VS Code staging](images/stage.png) 
 - commit and push the code `git commit -am "commit message here"`, `git push -u origin dev`
 - go to github and raise a pull request from your development branch to master
+![Open PR](images/pullRequest.png) 
 
 ## Requirements
 
