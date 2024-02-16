@@ -1,0 +1,134 @@
+html{
+    background-color: #E6FFDA;
+   margin:auto;
+}
+body {
+    margin: auto;
+    background-color: #111B21;
+}
+.wrapperHeader {
+    width: 100%;
+    height: 80;
+    margin:0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:1px rgb(216, 214, 214) solid;
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, .8); 
+    margin:0;
+    position: fixed;
+    top: 0;
+}
+
+.centeredHeaderList, .rightHeaderList{
+    display:flex;
+    margin: 18px 0px;
+    padding: 0px 20px;
+    justify-content: space-evenly;
+    gap:20px;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #1C1E21;
+    font-size: 16px;
+    position: relative; 
+}
+
+.top-main, .bottomMidMenu{
+    background-color: #E6FFDA;
+    margin:0;
+    display:flex;
+    width: 100%;
+}
+.top-main{
+    margin-top:88px;
+    margin-bottom: 56px;
+}
+.top-main{
+    justify-content: space-around;
+    align-items: center;
+}
+.top-main h1{
+    font-size: 60px;
+}
+.midMenus{
+    display:flex;
+    gap:25px;
+    justify-content: center;
+}
+.wrapperMidMenu{
+    background-color: #E6FFDA;
+}
+.leftMenu, .midMenu, .rightMenu{
+    padding:26px 22px 58px;
+    background-color: #1C1E21;
+    color:white;
+    border-radius: 25px;
+}
+.bottomMidMenu{
+    justify-content: center;
+    margin-top: 15px;
+}
+.wrapperBotMenu{
+    display:flex;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    gap:100px;
+    height:632px;
+    justify-content: right;
+}
+.right-col{
+    display:flex;
+    padding:0px 16px 0px 0px;
+    gap:26px;
+    align-items: center;
+}
+.left-col{
+    display:grid;
+    justify-content: space-evenly;
+
+}
+.left-col h1{
+    font-size: 60px;
+}
+.left-col p{
+    font-size: 18px;
+    font-weight:normal;
+}
+.wrapperCopyrights, .wrapperSubMenu{
+    background-color: #111B21;
+    margin:0px;
+    color:white;
+    width: 100%;
+}
+.wrapperSubMenu{
+display:flex;
+padding:96px 20px 88px;
+justify-content: center;
+margin-bottom: 1px;
+
+}
+.wrapperCopyrights{
+    display:flex;
+    padding:32px 0px;
+    justify-content: center;
+    }
+    .right-col img{
+        border-radius: 25px;
+    }
+
+.headerDownloadButton{
+    height: 50px;
+    width: 150px;
+   border-radius:50px;
+   background-color:#25D366;  
+}
